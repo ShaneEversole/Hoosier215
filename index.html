@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoosier</title>
+</head>
+<body>
+   <script>
+ function lotteryNumber() {
+    return (1 + Math.floor(Math.random() * 49))
+}
+
+const getSixNumbers = function(){
+    for (let num = 0; num < 6; num++){
+        console.log(lotteryNumber());
+    }
+};
+
+getSixNumbers();
+
+
+
+   </script>
+</body>
+</html>
